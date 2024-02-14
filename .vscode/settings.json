@@ -1,5 +1,6 @@
 {
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "editor.fontFamily": "Fira Code Retina"
 }

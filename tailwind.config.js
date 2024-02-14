@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Tanha: ["Tanha"],
+      },
+      backgroundImage: {
+        HeroImg: "url('../public/Images/Hero-bg.jpg')",
+      },
+    },
   },
   plugins: [],
 };
