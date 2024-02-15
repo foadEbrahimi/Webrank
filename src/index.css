@@ -7,10 +7,11 @@
   src: url("../public/Font/Tanha-FD.woff2") format(woff2);
   font-weight: normal;
 }
-body {
-  background-image: url("../public/Images/Hero-bg.jpg");
+.App {
+  background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/Images/Hero-bg.jpg");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: fit-content;
 }

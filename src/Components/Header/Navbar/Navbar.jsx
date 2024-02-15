@@ -25,7 +25,7 @@ export default function Navbar() {
       <a
         href="#"
         key={list.id}
-        className="text-xl xl:text-[1.3] text-white ps-1 hover:text-[#ffc451] transition-colors font-semibold"
+        className="text-xl xl:text-[1.3] text-white ps-1 hover:text-Primary transition-colors font-semibold"
       >
         {list.name}
       </a>
@@ -81,7 +81,7 @@ export default function Navbar() {
         <a href="#">
           <FontAwesomeIcon
             icon={faEllipsis}
-            className="text-4xl text-[#ffc451]"
+            className="text-4xl text-Primary"
             id="NavbarToggler"
           />
         </a>
