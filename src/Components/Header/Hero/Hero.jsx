@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Cards/Card";
 const InfoCards = [
   {
+    id: 1,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -14,6 +15,7 @@ const InfoCards = [
     title: "متن نمایشی",
   },
   {
+    id: 2,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +28,7 @@ const InfoCards = [
     title: "نمودار کیفی",
   },
   {
+    id: 3,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -38,6 +41,7 @@ const InfoCards = [
     title: "نمونه کارها",
   },
   {
+    id: 4,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,6 +54,7 @@ const InfoCards = [
     title: "عملکرد های پایانی",
   },
   {
+    id: 5,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +80,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="HeroCards select-none px-5 md:px-12 lg:px-32 xl:px-40 2xl:px-48 flex flex-wrap flex-col md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
-        {InfoCards.map(card => (
+        {InfoCards.map((card, index) => (
           <Card {...card} />
         ))}
       </div>

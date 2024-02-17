@@ -13,15 +13,15 @@ export default function Navbar() {
     { id: 5, name: "تیم", address: "#9" },
     { id: 6, name: "تماس با ما", address: "#9" },
   ];
-  const List = ListNavbar.map(list => (
-    <li>
+  const List = ListNavbar.map((list, index) => (
+    <li key={index}>
       <a href="#" key={list.id}>
         {list.name}
       </a>
     </li>
   ));
-  const desktopList = ListNavbar.map(list => (
-    <li className="">
+  const desktopList = ListNavbar.map((list, index) => (
+    <li key={index}>
       <a
         href="#"
         key={list.id}

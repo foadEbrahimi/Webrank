@@ -12,6 +12,12 @@ module.exports = {
       colors: {
         Primary: "#ffc451",
       },
+      listStyleImage: {
+        click: "url('../public/Images/double-check.svg')",
+      },
+      screens: {
+        laptop: "1000px",
+      },
     },
   },
   plugins: [],
