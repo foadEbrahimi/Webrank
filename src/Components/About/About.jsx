@@ -14,7 +14,7 @@ const Info = {
 };
 export default function About() {
   return (
-    <div className="px-5 md:px-10 xl:px-28 2xl:px-36 space-y-32">
+    <div className="space-y-16 px-5 md:px-10 xl:px-28 2xl:px-36">
       <div className="AboutSection mt-16 space-y-7 lg:flex lg:items-start lg:space-y-0 lg:gap-5">
         <img
           src="./Images/about.jpg"
@@ -39,16 +39,6 @@ export default function About() {
       </div>
       <div className="AdsSection">
         <Ads />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </div>
   );

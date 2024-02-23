@@ -6,11 +6,9 @@ module.exports = {
       fontFamily: {
         Tanha: ["Tanha"],
       },
-      backgroundImage: {
-        HeroImg: "url('../public/Images/Hero-bg.jpg')",
-      },
       colors: {
         Primary: "#ffc451",
+        SectionTitle: "#aaaaaa",
       },
       listStyleImage: {
         click: "url('../public/Images/double-check.svg')",

@@ -13,6 +13,9 @@ const InfoCards = [
       </svg>
     ),
     title: "متن نمایشی",
+    classCard:
+      "border border-slate-300 flex flex-col items-center gap-y-3 py-7 hover:border-Primary transition-colors",
+    classText: "text-white text-xl font-bold",
   },
   {
     id: 2,
@@ -26,6 +29,9 @@ const InfoCards = [
       </svg>
     ),
     title: "نمودار کیفی",
+    classCard:
+      "border border-slate-300 flex flex-col items-center gap-y-3 py-7 hover:border-Primary transition-colors",
+    classText: "text-white text-xl font-bold",
   },
   {
     id: 3,
@@ -39,6 +45,9 @@ const InfoCards = [
       </svg>
     ),
     title: "نمونه کارها",
+    classCard:
+      "border border-slate-300 flex flex-col items-center gap-y-3 py-7 hover:border-Primary transition-colors",
+    classText: "text-white text-xl font-bold",
   },
   {
     id: 4,
@@ -52,6 +61,9 @@ const InfoCards = [
       </svg>
     ),
     title: "عملکرد های پایانی",
+    classCard:
+      "border border-slate-300 flex flex-col items-center gap-y-3 py-7 hover:border-Primary transition-colors",
+    classText: "text-white text-xl font-bold",
   },
   {
     id: 5,
@@ -65,6 +77,9 @@ const InfoCards = [
       </svg>
     ),
     title: "اطلاعات ذخیره شده",
+    classCard:
+      "border border-slate-300 flex flex-col items-center gap-y-3 py-7 hover:border-Primary transition-colors",
+    classText: "text-white text-xl font-bold",
   },
 ];
 export default function Hero() {
@@ -80,7 +95,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="HeroCards select-none px-5 md:px-12 lg:px-32 xl:px-40 2xl:px-48 flex flex-wrap flex-col md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
-        {InfoCards.map((card, index) => (
+        {InfoCards.map(card => (
           <Card {...card} />
         ))}
       </div>
