@@ -96,7 +96,7 @@ export default function Hero() {
       </div>
       <div className="HeroCards select-none px-5 md:px-12 lg:px-32 xl:px-40 2xl:px-48 flex flex-wrap flex-col md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
         {InfoCards.map(card => (
-          <Card {...card} />
+          <Card {...card} key={card.id} />
         ))}
       </div>
     </div>

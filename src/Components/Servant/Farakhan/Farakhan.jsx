@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Farakhan() {
   return (
-    <div className="Farakhan text-center py-24 px-2 space-y-7">
+    <div className="Farakhan text-center py-24 px-3 md:px-8 lg:px-12 xl:px-16 2xl:px-24 space-y-7">
       <h1 className="text-white text-3xl font-bold">فراخوانی برای اقدام</h1>
-      <p className="text-white font-bold">
+      <p className="text-white font-bold text-right">
         اما محکوم کردن درد در فیلم غیرقابل تصور است ، در لذت می خواهد از درد
         سیلوس بودن بدون نتیجه فرار کند. آنها استثنائاتی هستند که کورها به دنبال
         آن هستند ، آنها نمی بینند ، آنها کسانی هستند که مسئولیت های خود را به

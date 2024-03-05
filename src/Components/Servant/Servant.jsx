@@ -38,7 +38,7 @@ const InfoCards = [
       "آنها استثنائاتی هستند که به دنبال سیاه پوستان هستند ، آنها نمی بینند ، آنها کسانی هستند که در خدمات خود مقصر هستند",
     classCard:
       "flex flex-col gap-y-3 px-8 border-2 items-center py-20 hover:shadow-2xl hover:scale-[1] hover:-translate-y-2 duration-500 transition-all",
-    classText: "font-bold text-2xl",
+    classText: "font-bold text-xl xl:text-2xl",
     classIcon: "bg-Primary flex w-fit p-4 rounded-md",
   },
   {
@@ -127,7 +127,7 @@ export default function Servant(props) {
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {InfoCards.map(card => (
-            <Card {...card} />
+            <Card {...card} key={card.id} />
           ))}
         </div>
       </div>

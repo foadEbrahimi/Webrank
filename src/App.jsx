@@ -1,6 +1,7 @@
 import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Header/Hero/Hero";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import Servant from "./Components/Servant/Servant";
 import "./index.css";
 const titleSections = [
@@ -16,9 +17,10 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <main className="space-y-36">
+      <main className="space-y-32">
         <About />
         <Servant {...titleSections[0]} />
+        <Portfolio {...titleSections[1]} />
       </main>
     </div>
   );
