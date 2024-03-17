@@ -10,36 +10,42 @@ export default function Portfolio(props) {
       titleBox: "اینترنت 3",
       subtitle: "اینترنت",
       category: "Internet",
+      id: 1,
     },
     {
       img: "./Images/Portfolio/portfolio-2.jpg",
       titleBox: "محصول 1",
       subtitle: "محصول",
       category: "Product",
+      id: 2,
     },
     {
       img: "./Images/Portfolio/portfolio-3.jpg",
       titleBox: "محصول 3",
       subtitle: "محصول",
       category: "Product",
+      id: 3,
     },
     {
       img: "./Images/Portfolio/portfolio-4.jpg",
       titleBox: "اینترنت 2",
       subtitle: "اینترنت",
       category: "Internet",
+      id: 4,
     },
     {
       img: "./Images/Portfolio/portfolio-5.jpg",
       titleBox: "برنامه 3",
       subtitle: "برنامه",
       category: "Program",
+      id: 5,
     },
     {
       img: "./Images/Portfolio/portfolio-6.jpg",
       titleBox: "برنامه 1",
       subtitle: "برنامه",
       category: "Program",
+      id: 6,
     },
   ]);
   const categoryFun = category => {
@@ -93,19 +99,19 @@ export default function Portfolio(props) {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {category === "all" &&
                 InfoCards.filter(card => card.category !== "all").map(card => (
-                  <Card {...card} />
+                  <Card {...card} key={card.id} />
                 ))}
               {category === "Program" &&
                 InfoCards.filter(card => card.category === "Program").map(
-                  card => <Card {...card} />
+                  card => <Card {...card} key={card.id} />
                 )}
               {category === "Product" &&
                 InfoCards.filter(card => card.category === "Product").map(
-                  card => <Card {...card} />
+                  card => <Card {...card} key={card.id} />
                 )}
               {category === "Internet" &&
                 InfoCards.filter(card => card.category === "Internet").map(
-                  card => <Card {...card} />
+                  card => <Card {...card} key={card.id} />
                 )}
             </div>
           </div>

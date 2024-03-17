@@ -1,6 +1,6 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css/sea-green";
+import "@splidejs/react-splide/css/skyblue";
 export default function Slider() {
   return (
     <Splide
@@ -35,7 +35,7 @@ export default function Slider() {
     >
       <SplideSlide>
         <img
-          src="./Images/Slider/img1.png"
+          src=""
           className="w-32 transition-all grayscale-[100] hover:grayscale-0"
           alt=""
         />

@@ -34,10 +34,10 @@ export default function Fittest() {
           className="w-10 fill-white"
         >
           <g
-            stroke="#ffc451"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            stroke="#40A2D8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
           >
             <circle cx="12" cy="12" r="10" />
             <path d="m12 6v6l4 4" />
@@ -59,7 +59,7 @@ export default function Fittest() {
           <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
           <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
           />
         </svg>
@@ -72,7 +72,7 @@ export default function Fittest() {
         "جوایز درد دردناک تر است در زمانی دیگر که هیچکس او را متهم نمی کند و هیچ وقت او را متهم نمی کند",
       icon: (
         <svg
-          enable-background="new 0 0 64 64"
+          enableBackground="new 0 0 64 64"
           viewBox="0 0 64 64"
           className="w-10 fill-Primary"
           xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ export default function Fittest() {
       ),
     },
   ]);
-  console.log(Info);
+  // console.log(Info);
   return (
     <div className="lg:flex gap-10">
       <div className="lg:w-6/12">
@@ -100,7 +100,7 @@ export default function Fittest() {
         </div>
         <div className="space-y-5 md:grid md:grid-cols-2 md:items-center">
           {infocards.map(card => (
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2" key={card.id}>
               <div className="flex items-center gap-3">
                 {card.icon}
                 <span className="text-4xl font-bold">{card.title}</span>

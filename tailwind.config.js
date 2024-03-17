@@ -7,16 +7,20 @@ module.exports = {
         Tanha: ["Tanha"],
       },
       colors: {
-        Primary: "#ffc451",
+        Primary: "#40A2D8",
         SectionTitle: "#aaaaaa",
       },
       listStyleImage: {
-        click: "url('../public/Images/double-check.svg')",
+        click: "url('../public/images/double-check.svg')",
       },
       screens: {
         laptop: "1000px",
       },
     },
   },
-  plugins: [],
+
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [],
+  },
 };

@@ -1,4 +1,5 @@
 import About from "./Components/About/About";
+import Feedback from "./Components/Feedback/Feedback";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Header/Hero/Hero";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Servant {...titleSections[0]} />
         <Portfolio {...titleSections[1]} />
+        <Feedback />
       </main>
     </div>
   );
