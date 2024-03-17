@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Header/Hero/Hero";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Servant from "./Components/Servant/Servant";
+import Team from "./Components/Team/Team";
 import "./index.css";
 const titleSections = [
   { ID: 1, subTitle: "خدمات", Title: "خدمات ما را بررسی کنید" },
@@ -23,6 +24,7 @@ function App() {
         <Servant {...titleSections[0]} />
         <Portfolio {...titleSections[1]} />
         <Feedback />
+        <Team {...titleSections[2]} />
       </main>
     </div>
   );
