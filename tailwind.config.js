@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         Primary: "#40A2D8",
+        // Primary_light: "",
         SectionTitle: "#aaaaaa",
       },
       listStyleImage: {

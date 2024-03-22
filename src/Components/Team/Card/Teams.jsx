@@ -21,8 +21,11 @@ export default function (data) {
           alt=""
         />
         <div className="Social opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center gap-x-5 absolute bottom-6 right-20 md:right-10 lg:right-12 xl:right-6 z-[2]">
-          {social.map(icon => (
-            <span className="text-2xl text-gray-100 bg-gray-400 p-2 rounded-xl cursor-pointer hover:text-gray-900 transition-all duration-500">
+          {social.map((icon, inedx) => (
+            <span
+              key={inedx}
+              className="text-2xl text-gray-100 bg-gray-400 p-2 rounded-xl cursor-pointer hover:text-gray-900 transition-all duration-500"
+            >
               {icon}
             </span>
           ))}

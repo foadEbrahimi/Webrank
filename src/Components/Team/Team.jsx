@@ -35,7 +35,7 @@ export default function Team(props) {
       </div>
       <div className="flex flex-col justify-center items-center gap-10 md:flex-row flex-wrap">
         {Data.map(team => (
-          <Teams {...team} />
+          <Teams {...team} key={team.id} />
         ))}
       </div>
     </div>
