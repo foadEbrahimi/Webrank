@@ -51,7 +51,7 @@ export default function Form() {
       <div className="space-y-10 md:grid md:grid-cols-4 gap-x-40 content-start">
         <div className="flex flex-col gap-5 col-span-1 md:mt-8">
           {infoCard.map(card => (
-            <Card {...card} />
+            <Card {...card} key={card.id}/>
           ))}
         </div>
         <div className="FORM col-span-3">

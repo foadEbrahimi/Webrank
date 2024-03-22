@@ -1,6 +1,7 @@
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Feedback from "./Components/Feedback/Feedback";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Header/Hero/Hero";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -28,6 +29,9 @@ function App() {
         <Team {...titleSections[2]} />
         <Contact {...titleSections[3]} />
       </main>
+      <footer className="mt-24">
+        <Footer />
+      </footer>
     </div>
   );
 }

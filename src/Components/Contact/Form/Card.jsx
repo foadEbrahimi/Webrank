@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Card(data) {
-  console.log(data);
   return (
     <div className="flex items-center gap-4">
       <div className="px-4 py-2 rounded-lg bg-Primary">{data.icon}</div>
