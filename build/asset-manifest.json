@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Webrank/static/css/main.38e4a550.css",
+    "main.js": "/Webrank/static/js/main.8f1b6b5f.js",
+    "static/js/592.b2763f53.chunk.js": "/Webrank/static/js/592.b2763f53.chunk.js",
+    "static/media/cta-bg.jpg": "/Webrank/static/media/cta-bg.63b483a22e14db81b62a.jpg",
+    "static/media/Hero-bg.jpg": "/Webrank/static/media/Hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/Tanha-FD.woff2": "/Webrank/static/media/Tanha-FD.e0e7707196b3086b6422.woff2",
+    "index.html": "/Webrank/index.html",
+    "static/media/double-check.svg": "/Webrank/static/media/double-check.46ddaa848996f555617e.svg",
+    "main.38e4a550.css.map": "/Webrank/static/css/main.38e4a550.css.map",
+    "main.8f1b6b5f.js.map": "/Webrank/static/js/main.8f1b6b5f.js.map",
+    "592.b2763f53.chunk.js.map": "/Webrank/static/js/592.b2763f53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38e4a550.css",
+    "static/js/main.8f1b6b5f.js"
+  ]
+}
